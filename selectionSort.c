@@ -22,7 +22,7 @@ int main()
     int ar[] = {6, 4, 5, 9, 1, 2, 8, 3, 7};
     int size = sizeof(ar) / sizeof(ar[0]);
     selectionsort(ar, size);
-    for(int i=0;i<size - 1;i++){
+    for(int i=0;i<size;i++){
         printf("%d\t",ar[i]);
     }
     return 0;
