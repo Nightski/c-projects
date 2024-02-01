@@ -79,8 +79,7 @@ struct BinaryTreeNode* findMin(struct BinaryTreeNode* root)
 	return root;
 }
 
-struct BinaryTreeNode* delete (struct BinaryTreeNode* root,
-							int x)
+struct BinaryTreeNode* delete (struct BinaryTreeNode* root,int x)
 {
 	if (root == NULL)
 		return NULL;
